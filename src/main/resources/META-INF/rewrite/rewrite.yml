@@ -1,0 +1,7 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: de.schulte.BestPractices
+displayName: BestPractices
+description: My best practices
+recipeList:
+  - org.openrewrite.maven.BestPractices
+  - org.openrewrite.java.testing.cleanup.BestPractices
